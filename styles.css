@@ -1,0 +1,161 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica;
+    color: seashell;
+    opacity: 0.9;
+}
+
+body{
+    background: black;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    height: 69px;
+    border-bottom: 1px solid white;
+}
+
+.logo{
+    cursor: pointer;
+    height: 50px;
+}
+
+.nav_links{
+    list-style: none;
+    font-size: 22px;
+}
+
+.nav_links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.hero{
+    height: 700px;
+    min-width: 1200px;
+    background-image: url(images/img-mission-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.overlay{
+    width: 1500px;
+    height: 100px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 35px;
+    background: black;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.gallery-txt{
+    text-align: center;
+    margin-top: 69px;
+    margin-bottom: 10px;
+    line-height: 40px;
+    font-size: 22px;
+}
+
+.gallery-pictures{
+    width: 1000px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    
+}
+.gallery-pictures figure img{
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+}
+
+.gallery-pictures figcaption{
+    text-align: center;
+    margin: 10px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.locations{
+    min-width: 1200px;
+    min-height: 500px;
+    background-image: url(images/img-locations-background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 20px 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.locations h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.lists-locations{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px auto;
+    padding: 20px;
+    align-items: stretch;
+}
+
+.lists-locations ul h3{
+    margin: 5px 20px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.lists-locations ul{
+    width: 300px;
+    text-decoration: none;
+    list-style: none;
+    background: black;
+    padding: 20px;
+    margin-right: 40px;
+    margin-top: 15px;
+    opacity: 1;
+    
+    
+}
+
+.lists-locations li{
+    margin:5px 20px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 22px;
+}
+
+footer .contact-info{
+    text-align: center;
+    height: 200px;
+    line-height: 50px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+footer .copyright{
+    text-align: left;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-size: 22px;
+}
