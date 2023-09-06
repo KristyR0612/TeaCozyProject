@@ -38,7 +38,7 @@ header{
 .hero{
     height: 700px;
     min-width: 1200px;
-    background-image: url(images/img-mission-background.jpg);
+    background-image: url(img-mission-background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0 50px;
@@ -93,7 +93,7 @@ header{
 .locations{
     min-width: 1200px;
     min-height: 500px;
-    background-image: url(images/img-locations-background.jpg);
+    background-image: url(img-locations-background.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
